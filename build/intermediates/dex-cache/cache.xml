@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_113bfbc0b0a1a9a1d02249881be67584d09026cf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_da8ce7896ea157f1384364ce517cfb10c62da290.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_787d6adbd2086d11601e721bd91f190c81def734.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_1f12a6af21d979be8ee6b2e5219aad9895cb1007.jar" />
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.1.0_ff58984b65c17c8d94f03339d324762793b61bbc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -54,15 +27,6 @@
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
         <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_bfd2b71524cc0cb580d7163801e4f8fdce388750.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_828f36483a92ad4cfc9fd2e32293bc964870f0ff.jar" />
     </item>
     <item
         is-multidex="false"
@@ -90,6 +54,69 @@
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
         <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_b0b6e701dd0daca4d882838fc75921abd0777377.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_113bfbc0b0a1a9a1d02249881be67584d09026cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_da8ce7896ea157f1384364ce517cfb10c62da290.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_1f12a6af21d979be8ee6b2e5219aad9895cb1007.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_787d6adbd2086d11601e721bd91f190c81def734.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_828f36483a92ad4cfc9fd2e32293bc964870f0ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.0_b4fdaeb50bec76517e864d6c5c92db5dd72a56d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\edrom\SourceControlProjects\AndroidTest\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.1.0_daca1d4991dd08603d24fb892ea33535475ed15c.jar" />
     </item>
 
 </items>

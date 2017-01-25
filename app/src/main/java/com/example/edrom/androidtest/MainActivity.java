@@ -1,28 +1,41 @@
 package com.example.edrom.androidtest;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.content.Intent;
 import android.widget.TextView;
-import android.app.Activity;
-import android.app.Dialog;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
+
+    private static final int REQUEST_CODE_NAME = 0;
+    private TextView tvOutput;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tvOutput = (TextView) findViewById(R.id.tvOutput);
     }
 
-    public void sayHello(View view) {
-        Dialog dialog = new Dialog(this);
-        dialog.setTitle("Greetings");
-        TextView textView = new TextView(this);
-        textView.setText("Hello World");
-        textView.setPadding(20, 20, 20, 20);
+    public void setName(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivityForResult(intent, REQUEST_CODE_NAME);
+    }
 
-        dialog.setContentView(textView);
-        dialog.show();
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == REQUEST_CODE_NAME)
+        {
+            if(resultCode == RESULT_OK)
+            {
+                String name = data.getStringExtra("name");
+                tvOutput.setText(String.format(getString(R.string.Welcome_Back),name));
+            }
+        }
     }
 }

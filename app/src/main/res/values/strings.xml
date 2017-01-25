@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidTest</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="launch_activity">Launch Activity</string>
+    <string name="this_is_second_activity">This is Second Activity</string>
+    <string name="set_name">Set Name</string>
+    <string name="Welcome_Back">Welcome back %s</string>
+    <string name="submit">Submit</string>
 </resources>
