@@ -11,22 +11,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvOutput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:textSize="32sp"
-        android:hint="Welcome Guest!">
-        <requestFocus />
-    </TextView>
+    <Button
+        android:id="@+id/btnBrowseWeb"
+        android:layout_gravity="center"
+        android:onClick="browseWeb"
+        android:text="Browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnSetName"
+        android:id="@+id/btnShowMap"
         android:layout_gravity="center"
-        android:onClick="setName"
-        android:text="@string/set_name"
+        android:onClick="showMap"
+        android:text="Maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnMakeCall"
+        android:layout_gravity="center"
+        android:onClick="makeCall"
+        android:text="Phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

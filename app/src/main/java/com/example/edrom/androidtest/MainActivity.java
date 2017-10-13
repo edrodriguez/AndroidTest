@@ -1,41 +1,32 @@
 package com.example.edrom.androidtest;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.content.Intent;
-import android.widget.TextView;
+import android.net.Uri;
 
-public class MainActivity extends Activity {
-
-    private static final int REQUEST_CODE_NAME = 0;
-    private TextView tvOutput;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        tvOutput = (TextView) findViewById(R.id.tvOutput);
     }
 
-    public void setName(View view) {
-        Intent intent = new Intent(this, SecondActivity.class);
-        startActivityForResult(intent, REQUEST_CODE_NAME);
+    public void browseWeb(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+        startActivity(intent);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data)
-    {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if(requestCode == REQUEST_CODE_NAME)
-        {
-            if(resultCode == RESULT_OK)
-            {
-                String name = data.getStringExtra("name");
-                tvOutput.setText(String.format(getString(R.string.Welcome_Back),name));
-            }
-        }
+    public void showMap(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:26.934,-80.106?q=26.934,-80.106"));
+        startActivity(intent);
     }
+
+    public void makeCall(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:+14199021160"));
+        startActivity(intent);
+    }
+
 }
